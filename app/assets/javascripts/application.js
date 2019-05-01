@@ -10,7 +10,12 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// DL 4/30 - added 'require bootstrap' unsure how to get the hamburger to open when the responsive screen is shrunk down
+//
+//= require jquery
+//= require jquery_ujs
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
